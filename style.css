@@ -20,7 +20,7 @@ iframe{border: 10px solid black;margin-left: 35%;}
 .para2{color: rgb(187, 14, 255);margin-left: 25px;font-size: 18px;font-weight: bold;
 }
 .para3{margin-left: 10px;font-size: 25px;color: black;}
-img{border: 10px solid black;margin-left: 35%;}
+.imgg{border: 10px solid black;margin-left: 35%;}
 table{margin-left: 30%;}
 .para4{text-align: center;}
 
@@ -32,7 +32,16 @@ table{margin-left: 30%;}
 .twitter{height: 50px;width: 50px;}
 .instagram{height: 50px;width: 50px; }
 .youtube{height: 50px;width: 70px;}
-
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue}
+.flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;width: 30%;
+      }
+      div{justify-content: space-between 50px;}
 
 
 
